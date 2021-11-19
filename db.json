@@ -1,0 +1,89 @@
+{
+  "users": [
+    {
+      "username": "umid",
+      "email": "imid@gmail.com",
+      "password": "fffffff",
+      "id": 1
+    },
+    {
+      "username": "tom",
+      "email": "tom@gmail.com",
+      "password": "supertom",
+      "id": 2
+    },
+    {
+      "username": "paul",
+      "email": "s",
+      "password": "s",
+      "id": 3
+    },
+    {
+      "username": "qwe",
+      "email": "qwe",
+      "password": "qwe",
+      "id": 4
+    },
+    {
+      "username": "tar",
+      "email": "tar",
+      "password": "tar",
+      "id": 5
+    },
+    {
+      "username": "abv",
+      "email": "abv",
+      "password": "abv",
+      "id": 6
+    }
+  ],
+  "reviews": [
+    {
+      "image": "https://cdn-icons-png.flaticon.com/512/919/919851.png",
+      "title": "React",
+      "desc": "React — JavaScript-библиотека с открытым исходным кодом для разработки пользовательских интерфейсов. React разрабатывается и поддерживается Facebook, Instagram и сообществом отдельных разработчиков и корпораций. ",
+      "likeCount": 41,
+      "user": "tom",
+      "id": 7
+    },
+    {
+      "image": "https://cdn0.iconfinder.com/data/icons/programming-vintage-circle/32/programming_js_icon-512.png",
+      "title": "JS",
+      "desc": "JavaScript — мультипарадигменный язык программирования. Поддерживает объектно-ориентированный, императивный и функциональный стили. Является реализацией спецификации ECMAScript. ",
+      "likeCount": 39,
+      "user": "tom",
+      "id": 8
+    },
+    {
+      "image": "https://cdn-icons-png.flaticon.com/512/919/919827.png",
+      "title": "HTML",
+      "desc": "HTML — стандартизированный язык разметки документов для просмотра веб-страниц в браузере. Веб-браузеры получают HTML документ от сервера по протоколам HTTP/HTTPS или открывают с локального диска",
+      "likeCount": 42,
+      "user": "tom",
+      "id": 9
+    },
+    {
+      "image": "https://freeiconshop.com/wp-content/uploads/edd/css-flat.png",
+      "title": "CSS",
+      "desc": "CSS — формальный язык описания внешнего вида документа, написанного с использованием языка разметки. ",
+      "likeCount": 39,
+      "user": "tom",
+      "id": 10
+    },
+    {
+      "image": "https://yandex.ru/images/search?pos=1&from=tabbar&img_url=https%3A%2F%2Farhivach.net%2Fstorage%2Fa%2F9f%2Fa9fe6d0878cfccfa12e8c0d18669de56.png&text=c%2B%2B+png&rpt=simage",
+      "title": "C++",
+      "desc": "C++ courses",
+      "likeCount": 38,
+      "user": "tom",
+      "id": 6
+    },
+    {
+      "title": "sadas",
+      "desc": "dsadas",
+      "likeCount": 0,
+      "user": "abv",
+      "id": 11
+    }
+  ]
+}

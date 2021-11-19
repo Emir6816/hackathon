@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies online</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Road+Rage&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+  <!-- //////////////////////////////////////////////////////adsc -->
+  <div class="container">
+  <div class="header">
+    <h1 class="header-title">makers documentation</h1>
+    <p class="header-subtitle">Paulo & Emir</p>
+  </div>
+</div>
+  <div class="nav-background ">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light  ">
+      <div class="container-fluid">
+        
+        <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              
+              
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#" ><button class="add-user-btn btn btn-violet" data-bs-toggle="modal" data-bs-target="#exampleRegisterModal">Register</button></a>
+            </li>
+
+            <li class="nav-item ">
+              <a class="nav-link text-light" href="#" ><button class="add-review-btn btn btn-violet" data-bs-toggle="modal" data-bs-target="#exampleAddReviewModal">Add review</button></a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="searchValue" >
+            <button class="btn btn-violet" type="submit"  id="searchBtn" autofocus>Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>
+
+
+    <div class="container">
+      
+        
+            <div class="cards d-flex flex-wrap">
+              
+            
+        </div>
+        <div class="pagination-block">
+          <button class="btn btn-violet" id="previous-btn">Prev page</button>
+          <button class="btn btn-violet" id="next-btn">Next page</button>
+      </div>
+    </div>
+
+    <!-- modal here -->
+    <!-- modal for user registration -->
+    <div class="modal fade" id="exampleRegisterModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Registration user</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+        <div class="modal-body">
+          <input type="text" id="add-user-name" placeholder="Enter username">
+          <input type="text" id="add-user-email" placeholder="Enter email">
+          <input type="password" id="add-user-password" placeholder="Enter password">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" id="user-register-btn">Register</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- end registration modal -->
+    <!-- add review modal -->
+    <div class="modal fade" id="exampleAddReviewModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Add review modal</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <input type="text" id="add-review-trailer" placeholder="img url">
+          <input type="text" id="add-review-title" placeholder="Review title">
+          <input type="text" id="add-review-desc" placeholder="Review description">
+          <input type="text" id="add-review-user" placeholder="Enter your username">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary edit-review-btn">Save changes</button>
+          <button type="button" class="btn btn-violet" id="add-review-btn">Add review</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- end add review modal -->
+    <!-- end modal -->
+    <div class="footer">
+      <div class="container">
+        <div class="footer-inner">
+      <p class="footer-text">Created by Paul Paramonov & Emir Rysbekov</p>
+      <p class="contact">Contact us : MegaCreator@gmail.com</p>
+    </div>
+    </div>
+    </div>
+
+  
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="./JS/main.js"></script>
+</body>
+</html>
